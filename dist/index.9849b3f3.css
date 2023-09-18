@@ -1,0 +1,92 @@
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 10;
+  src: url("Dana-Hairline.280a6e89.woff2") format("woff2"), url("Dana-Hairline.57aae6a6.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 100;
+  src: url("Dana-Thin.0c76cfd1.woff2") format("woff2"), url("Dana-Thin.0aa0bb4b.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 200;
+  src: url("Dana-UltraLight.14901bff.woff2") format("woff2"), url("Dana-UltraLight.1d6bb530.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 300;
+  src: url("Dana-Light.df593d51.woff2") format("woff2"), url("Dana-Light.44a1bf8e.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 500;
+  src: url("Dana-Medium.c65cbaca.woff2") format("woff2"), url("Dana-Medium.611c0374.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 600;
+  src: url("Dana-DemiBold.b3095c0b.woff2") format("woff2"), url("Dana-DemiBold.4852d5c8.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 800;
+  src: url("Dana-ExtraBold.83122dd2.woff2") format("woff2"), url("Dana-ExtraBold.3597e533.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 900;
+  src: url("Dana-Black.8ea36530.woff2") format("woff2"), url("Dana-Black.47632092.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 930;
+  src: url("Dana-ExtraBlack.1e837ac8.woff2") format("woff2"), url("Dana-ExtraBlack.ea96f380.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 960;
+  src: url("Dana-Heavy.36e48463.woff2") format("woff2"), url("Dana-Heavy.656b058e.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 990;
+  src: url("Dana-fat.dfcea6da.woff2") format("woff2"), url("Dana-fat.1ce88145.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: bold;
+  src: url("Dana-Bold.8865039e.woff2") format("woff2"), url("Dana-Bold.0a0cf45a.woff") format("woff");
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: normal;
+  src: url("Dana-Regular.93dc6c11.woff2") format("woff2"), url("Dana-Regular.57df52bd.woff") format("woff");
+}
+
+/*# sourceMappingURL=index.9849b3f3.css.map */

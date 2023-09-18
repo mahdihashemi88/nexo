@@ -1,0 +1,45 @@
+@font-face {
+  font-family: sg-kara;
+  src: url("sg-kara.30a7cfbe.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+:root {
+  --max-width: 1000px;
+  --body-bg: #fafdff;
+  --title-color: #1f3038;
+  --subtitle-color: #375462;
+  --text-color: #334e5c;
+  --identity-color: #ffc900;
+  --desktop-media-query: 992px;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  font-smooth: always;
+}
+
+body {
+  background: var(--body-bg);
+  font-family: dana;
+}
+
+section {
+  padding: 0 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */

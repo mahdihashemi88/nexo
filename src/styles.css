@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'sg-kara';
+    src: url(./assets/fonts/sg-kara/sg-kara.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --max-width: 1000px;
+    --body-bg: #FAFDFF;
+    --title-color: #1F3038;
+    --subtitle-color: #375462;
+    --text-color: #334E5C;
+    --identity-color: #FFC900;
+
+    --desktop-media-query: 992px
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    font-smooth: always;
+}
+
+body {
+    font-family: 'dana';
+    background: var(--body-bg);
+}
+
+section {
+    padding: 0 16px
+}
+
+img {
+    max-width: 100%;
+}
