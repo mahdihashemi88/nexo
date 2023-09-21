@@ -1,0 +1,78 @@
+#advertise {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 8rem;
+}
+
+#advertise .advertise__container {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+  display: grid;
+}
+
+@media screen and (width <= 600px) {
+  #advertise .advertise__container {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+}
+
+#advertise .advertise__container .advertise__box {
+  background-color: #f4f6fd;
+  border-radius: 1.5rem;
+  padding: 4rem 4rem 0;
+  position: relative;
+}
+
+#advertise .advertise__container .advertise__box h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+#advertise .advertise__container .advertise__box p {
+  color: #4a5056;
+  margin-top: .5rem;
+  font-size: 1.125rem;
+}
+
+#advertise .advertise__container .advertise__box a {
+  color: #000;
+  align-items: center;
+  margin-top: .5rem;
+  margin-bottom: 50px;
+  text-decoration: none;
+  display: flex;
+}
+
+#advertise .advertise__container .advertise__box a span {
+  background-color: #00f;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+#advertise .advertise__container .advertise__box a span svg {
+  fill: #fff;
+  width: 1em;
+  height: 1em;
+}
+
+#advertise .advertise__container .advertise__box .box__image {
+  justify-content: flex-end;
+  display: flex;
+}
+
+@media screen and (width <= 600px) {
+  #advertise .advertise__container .advertise__box .box__image {
+    justify-content: center;
+  }
+}
+
+#advertise .advertise__container .advertise__box .box__image img {
+  width: 240px;
+}
+
+/*# sourceMappingURL=index.a6d569b8.css.map */

@@ -1,0 +1,76 @@
+#pro {
+  max-width: var(--max-width);
+  border-radius: 10%;
+  width: 100%;
+  margin: 8rem auto 0;
+  position: relative;
+}
+
+#pro .pro__container {
+  position: relative;
+}
+
+#pro .pro__container img:nth-child(2) {
+  max-width: 97%;
+  position: absolute;
+  top: 26%;
+  right: 3%;
+}
+
+#pro .pro__container .pro__content {
+  color: #fff;
+}
+
+#pro .pro__container .pro__content .content__box {
+  z-index: 99;
+  max-width: 42%;
+  padding: 0 56px;
+  position: absolute;
+  top: 35%;
+}
+
+#pro .pro__container .pro__content .content__box h2 {
+  margin-bottom: 10px;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+#pro .pro__container .pro__content .content__box p {
+  color: #a0a4a7;
+  font-size: 1.125rem;
+}
+
+#pro .pro__container .pro__content .content__box div {
+  margin-top: 33px;
+}
+
+#pro .pro__container .pro__content .content__box div a {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+}
+
+#pro .pro__container .pro__content .content__box div a span {
+  background-color: #9eb3ee;
+  border-radius: 50%;
+  align-items: center;
+  margin-left: 10px;
+  display: flex;
+}
+
+#pro .pro__container .pro__content .content__box div a span svg {
+  width: 26px;
+  height: 17px;
+}
+
+#pro .pro__container .pro__content img {
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  right: 3%;
+}
+
+/*# sourceMappingURL=index.082585e9.css.map */

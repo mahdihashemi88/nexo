@@ -1,1 +1,1 @@
-{"mappings":"","sources":["src/partials/nav.scss"],"sourcesContent":[null],"names":[],"version":3,"file":"index.e58d0a77.css.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAAA;;;;;;AAIE","sources":["src/partials/nav.scss"],"sourcesContent":["#nav{\r\n  padding: 0 16px;\r\n  height: 65px;\r\n  background-color: rgba(8,31,117,.75);\r\n  .nav__container{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n  }\r\n}"],"names":[],"version":3,"file":"index.e58d0a77.css.map","sourceRoot":"/__parcel_source_root/"}

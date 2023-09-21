@@ -15,7 +15,7 @@
 }
 
 :root {
-    --max-width: 1000px;
+    --max-width: 1088px;
     --body-bg: #FAFDFF;
     --title-color: #1F3038;
     --subtitle-color: #375462;
@@ -23,6 +23,8 @@
     --identity-color: #FFC900;
 
     --desktop-media-query: 992px
+
+
 }
 
 html {
