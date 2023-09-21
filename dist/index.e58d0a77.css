@@ -1,12 +1,59 @@
 #nav {
+  z-index: 99;
   background-color: #081f75bf;
+  width: 100%;
   height: 65px;
   padding: 0 16px;
+  position: fixed;
 }
 
 #nav .nav__container {
   justify-content: space-between;
   align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+#nav .nav__container .nav__logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#nav .nav__container .nav__items a {
+  color: #f6f8fb;
+  text-decoration: none;
+}
+
+#nav .nav__container .nav__btn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#nav .nav__container .nav__btn a {
+  color: #9eb3ee;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#nav .nav__container .nav__btn button {
+  all: unset;
+  color: #1e4dd8;
+  background-color: #f6f8fb;
+  border-radius: .375rem;
+  margin-right: 5px;
+  padding: 5px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#nav .nav__container .nav__btn button:last-child {
+  color: #f6f8fb;
+  background: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
   display: flex;
 }
 

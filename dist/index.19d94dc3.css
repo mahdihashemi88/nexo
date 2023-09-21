@@ -1,0 +1,466 @@
+#interaction {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 8rem;
+}
+
+#interaction .interaction__container {
+  background-color: #f4f6fd;
+  border-radius: 1.5rem;
+}
+
+#interaction .interaction__container .interaction__titles {
+  border-bottom: 1px solid #83888c33;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  display: flex;
+}
+
+#interaction .interaction__container .interaction__titles button {
+  all: unset;
+  cursor: pointer;
+  opacity: .5;
+  border: 1px solid #83888c80;
+  border-radius: 100px;
+  margin: 0 10px;
+  padding: 3px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#interaction .interaction__container .interaction__titles button:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+#interaction .interaction__container .Buy {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (width <= 600px) {
+  #interaction .interaction__container .Buy {
+    grid-template-columns: 1fr;
+  }
+}
+
+#interaction .interaction__container .Buy .buy__content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  display: flex;
+}
+
+@media screen and (width <= 600px) {
+  #interaction .interaction__container .Buy .buy__content {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+#interaction .interaction__container .Buy .buy__content h2 {
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+#interaction .interaction__container .Buy .buy__content p {
+  color: #4a5056;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+}
+
+#interaction .interaction__container .Buy .buy__content div {
+  align-items: center;
+  display: flex;
+}
+
+#interaction .interaction__container .Buy .buy__content div button {
+  all: unset;
+  color: #f6f8fb;
+  background-color: #ec713c;
+  border-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin-right: 20px;
+  padding: 10px 20px;
+  font-size: 1.125rem;
+  display: flex;
+}
+
+#interaction .interaction__container .Buy .buy__content div button svg {
+  fill: #fff;
+  width: 1rem;
+  height: 1rem;
+}
+
+#interaction .interaction__container .Buy .buy__content div a {
+  color: #000;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+}
+
+#interaction .interaction__container .Buy .buy__content div a span {
+  background-color: #ec713c;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+#interaction .interaction__container .Buy .buy__content div a span svg {
+  fill: #fff;
+  width: 1em;
+  height: 1em;
+}
+
+#interaction .interaction__container .Earn {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (width <= 600px) {
+  #interaction .interaction__container .Earn {
+    grid-template-columns: 1fr;
+  }
+}
+
+#interaction .interaction__container .Earn .earn__content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  display: flex;
+}
+
+@media screen and (width <= 600px) {
+  #interaction .interaction__container .Earn .earn__content {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+#interaction .interaction__container .Earn .earn__content h2 {
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+#interaction .interaction__container .Earn .earn__content p {
+  color: #4a5056;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+}
+
+#interaction .interaction__container .Earn .earn__content div {
+  align-items: center;
+  display: flex;
+}
+
+#interaction .interaction__container .Earn .earn__content div button {
+  all: unset;
+  color: #f6f8fb;
+  background-color: #00a76a;
+  border-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin-right: 20px;
+  padding: 10px 20px;
+  font-size: 1.125rem;
+  display: flex;
+}
+
+#interaction .interaction__container .Earn .earn__content div button svg {
+  fill: #fff;
+  width: 1rem;
+  height: 1rem;
+}
+
+#interaction .interaction__container .Earn .earn__content div a {
+  color: #000;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+}
+
+#interaction .interaction__container .Earn .earn__content div a span {
+  background-color: #00a76a;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+#interaction .interaction__container .Earn .earn__content div a span svg {
+  fill: #fff;
+  width: 1em;
+  height: 1em;
+}
+
+#interaction .interaction__container .Exchange {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (width <= 600px) {
+  #interaction .interaction__container .Exchange {
+    grid-template-columns: 1fr;
+  }
+}
+
+#interaction .interaction__container .Exchange .exchange__content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  display: flex;
+}
+
+@media screen and (width <= 600px) {
+  #interaction .interaction__container .Exchange .exchange__content {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+#interaction .interaction__container .Exchange .exchange__content h2 {
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+#interaction .interaction__container .Exchange .exchange__content p {
+  color: #4a5056;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+}
+
+#interaction .interaction__container .Exchange .exchange__content div {
+  align-items: center;
+  display: flex;
+}
+
+#interaction .interaction__container .Exchange .exchange__content div button {
+  all: unset;
+  color: #f6f8fb;
+  background-color: #5fa4f8;
+  border-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin-right: 20px;
+  padding: 10px 20px;
+  font-size: 1.125rem;
+  display: flex;
+}
+
+#interaction .interaction__container .Exchange .exchange__content div button svg {
+  fill: #fff;
+  width: 1rem;
+  height: 1rem;
+}
+
+#interaction .interaction__container .Exchange .exchange__content div a {
+  color: #000;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+}
+
+#interaction .interaction__container .Exchange .exchange__content div a span {
+  background-color: #5fa4f8;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+#interaction .interaction__container .Exchange .exchange__content div a span svg {
+  fill: #fff;
+  width: 1em;
+  height: 1em;
+}
+
+#interaction .interaction__container .Borrow {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (width <= 600px) {
+  #interaction .interaction__container .Borrow {
+    grid-template-columns: 1fr;
+  }
+}
+
+#interaction .interaction__container .Borrow .borrow__content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  display: flex;
+}
+
+@media screen and (width <= 600px) {
+  #interaction .interaction__container .Borrow .borrow__content {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+#interaction .interaction__container .Borrow .borrow__content h2 {
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+#interaction .interaction__container .Borrow .borrow__content p {
+  color: #4a5056;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+}
+
+#interaction .interaction__container .Borrow .borrow__content div {
+  align-items: center;
+  display: flex;
+}
+
+#interaction .interaction__container .Borrow .borrow__content div button {
+  all: unset;
+  color: #f6f8fb;
+  background-color: #1e4dd8;
+  border-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin-right: 20px;
+  padding: 10px 20px;
+  font-size: 1.125rem;
+  display: flex;
+}
+
+#interaction .interaction__container .Borrow .borrow__content div button svg {
+  fill: #fff;
+  width: 1rem;
+  height: 1rem;
+}
+
+#interaction .interaction__container .Borrow .borrow__content div a {
+  color: #000;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+}
+
+#interaction .interaction__container .Borrow .borrow__content div a span {
+  background-color: #00f;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+#interaction .interaction__container .Borrow .borrow__content div a span svg {
+  fill: #fff;
+  width: 1em;
+  height: 1em;
+}
+
+#interaction .interaction__container .Card {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (width <= 600px) {
+  #interaction .interaction__container .Card {
+    grid-template-columns: 1fr;
+  }
+}
+
+#interaction .interaction__container .Card .card__content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  display: flex;
+}
+
+@media screen and (width <= 600px) {
+  #interaction .interaction__container .Card .card__content {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+#interaction .interaction__container .Card .card__content h2 {
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+#interaction .interaction__container .Card .card__content p {
+  color: #4a5056;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+}
+
+#interaction .interaction__container .Card .card__content div {
+  align-items: center;
+  display: flex;
+}
+
+#interaction .interaction__container .Card .card__content div button {
+  all: unset;
+  color: #f6f8fb;
+  background-color: #1e4dd8;
+  border-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin-right: 20px;
+  padding: 10px 20px;
+  font-size: 1.125rem;
+  display: flex;
+}
+
+#interaction .interaction__container .Card .card__content div button svg {
+  fill: #fff;
+  width: 1rem;
+  height: 1rem;
+}
+
+#interaction .interaction__container .Card .card__content div a {
+  color: #000;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+}
+
+#interaction .interaction__container .Card .card__content div a span {
+  background-color: #00f;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+#interaction .interaction__container .Card .card__content div a span svg {
+  fill: #fff;
+  width: 1em;
+  height: 1em;
+}
+
+#interaction .interaction__container .shown {
+  display: none;
+}
+
+#interaction .interaction__container .active {
+  display: grid;
+}
+
+/*# sourceMappingURL=index.19d94dc3.css.map */

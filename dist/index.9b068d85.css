@@ -48,10 +48,6 @@
   display: grid;
 }
 
-#awards .awards__container .awards__images img {
-  max-width: 177px;
-}
-
 #awards .awards__container .awards__images img:hover {
   transition: transform .5s;
   transform: scale(1.05);
@@ -63,8 +59,18 @@
   display: grid;
 }
 
+#awards .awards__container .awards__images span img {
+  max-width: 177px;
+}
+
 #awards .awards__container .awards__images span img:first-child {
   margin-left: 86px;
+}
+
+@media screen and (width <= 600px) {
+  #awards .awards__container .awards__images span img:first-child {
+    margin-right: 18px;
+  }
 }
 
 /*# sourceMappingURL=index.9b068d85.css.map */

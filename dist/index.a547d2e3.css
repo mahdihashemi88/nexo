@@ -1,0 +1,16 @@
+#description {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto 80px;
+}
+
+#description .description__container p {
+  color: #83888c;
+  font-size: .75rem;
+}
+
+#description .description__container p:last-child {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=index.a547d2e3.css.map */
